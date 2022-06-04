@@ -82,7 +82,7 @@
         android:layout_height="58dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="324dp"
-        android:text="     Введите ваше имя"
+        android:hint="     Введите ваше имя"
         android:textColor="#808080"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -95,7 +95,7 @@
         android:layout_height="54dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="388dp"
-        android:text="     Введите вашу Фамилию"
+        android:hint="     Введите вашу Фамилию"
         android:textColor="#808080"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -108,14 +108,14 @@
         android:layout_height="50dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="448dp"
-        android:text="     Введите ваш контактный номер"
+        android:hint="     Введите ваш контактный номер"
         android:textColor="#808080"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
     </EditText>
 
     <Button
-        android:id="@+id/bt_1"
+        android:id="@+id/secondActivityBtn"
         android:layout_width="273dp"
         android:layout_height="44dp"
         android:layout_marginTop="48dp"
@@ -129,22 +129,23 @@
         android:id="@+id/chkb_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.134"
+
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="120dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bt_1"></CheckBox>
+        app:layout_constraintTop_toBottomOf="@+id/edt_3"></CheckBox>
 
     <TextView
         android:id="@+id/text_4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
+        android:layout_width="306dp"
+        android:layout_height="35dp"
 
-        android:layout_marginTop="40dp"
+
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="616dp"
         android:text="Согласен(-а) с условиями использования
 
         и политикой конфидециальности"
-        app:layout_constraintStart_toEndOf="@+id/chkb_1"
-        app:layout_constraintTop_toBottomOf="@+id/bt_1"></TextView>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
 </androidx.constraintlayout.widget.ConstraintLayout>

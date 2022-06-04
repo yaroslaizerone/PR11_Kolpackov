@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/kolpa/AndroidStudioProjects/PR11_Kolpackov/app/src/main/res/drawable/radius.xml" value="0.218" />
+        <entry key="..\:/Users/kolpa/AndroidStudioProjects/PR11_Kolpackov/app/src/main/res/drawable/radius2.xml" value="0.196" />
+        <entry key="..\:/Users/kolpa/AndroidStudioProjects/PR11_Kolpackov/app/src/main/res/drawable/radius3.xml" value="0.196" />
+        <entry key="..\:/Users/kolpa/AndroidStudioProjects/PR11_Kolpackov/app/src/main/res/drawable/radius4.xml" value="0.196" />
+        <entry key="..\:/Users/kolpa/AndroidStudioProjects/PR11_Kolpackov/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/kolpa/AndroidStudioProjects/PR11_Kolpackov/app/src/main/res/layout/activity_second.xml" value="0.22" />
+        <entry key="..\:/Users/kolpa/AndroidStudioProjects/PR11_Kolpackov/app/src/main/res/layout/activity_tried.xml" value="0.22" />
         <entry key="..\:/Users/mobil/PR11KolpackovYaroslav/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/mobil/PR11KolpackovYaroslav/app/src/main/res/layout/activity_second.xml" value="0.9" />
       </map>

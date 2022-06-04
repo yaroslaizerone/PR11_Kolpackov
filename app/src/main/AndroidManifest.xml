@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PR11KolpackovYaroslav">
         <activity
-            android:name=".SecondACT"
+            android:name=".tried" android:parentActivityName=".SecondACT"
+            android:exported="false" />
+        <activity
+            android:name=".SecondACT" android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
